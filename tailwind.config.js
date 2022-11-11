@@ -6,7 +6,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'purple': '#7065EE'
+        'purple': {
+          light: '#F8F7FD',
+          semilight: '#E8E7F8',
+          DEFAULT: '#7065EE',
+          dark: '#3A355D'
+        }
       }
     },
   },
